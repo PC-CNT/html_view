@@ -19,12 +19,14 @@ body {
 } */
 
 div {
-    margin: 8px;
+    margin: 4px;
 }
 
 input {
+    display: block;
     border: 2px solid #111;
     border-radius: 3px;
+    margin: 0 auto;
 }
 
 input:focus {
@@ -33,6 +35,10 @@ input:focus {
     outline: 0;
 }
 
+
+input[type="checkbox"] {
+    display: initial;
+}
 
 button[type=submit] {
     font-size: 1.1em;
@@ -44,12 +50,13 @@ button[type=submit] {
     font-weight: bold;
 }
 
-.center {
+.center_text {
     text-align: center;
 }
 
-.left {
+.left_text {
     text-align: left;
+    display: block;
 }
 
 .wide {

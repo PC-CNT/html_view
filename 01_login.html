@@ -6,42 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" href="./css/style.css">
-
 
     <title>ログイン画面</title>
 </head>
 
-<body>
-    <div class="center">
+<body class="center_text">
+    <div>
         <h1 class="title">ふぁびっと</h1>
     </div>
 
     <form action="">
-        <div class="center">
-            <label class="left">ユーザーID</label><br>
-            <input class="wide" type="number" name="" placeholder="ユーザーID" required id="">
+        <div>
+            <label>
+                <div>
+                    ユーザーID
+                </div>
+                <div>
+                    <input class="wide" type="number" name="" placeholder="ユーザーID" required id="userID">
+                </div>
+            </label>
         </div>
 
-        <div class="center">
-            パスワード<br>
-            <input class="wide" type="password" name="password" placeholder="パスワード" required id="">
+        <div>
+            <label>
+                パスワード
+                <input class="wide" type="password" name="" placeholder="パスワード" required id="password">
+            </label>
         </div>
 
-        <div class="center">
-            <input type="checkbox" name="" id="">ログイン状態を保存する
+        <div>
+            <label>
+                <input type="checkbox" name="" id="">ログイン状態を保存する
+            </label>
         </div>
 
-        <div class="center">
+        <div>
             <button type="submit">ログイン</button>
         </div>
 
-        <div class="center">
+        <div>
             <a href="#">アカウントを持っていない方はこちら</a>
         </div>
 
-        <div class="center">
+        <div>
             <a href="#">パスワードを忘れた場合はこちら</a>
         </div>
 
