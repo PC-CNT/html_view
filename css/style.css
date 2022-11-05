@@ -19,12 +19,17 @@ body {
 } */
 
 div {
-    margin: 4px;
+    margin: min(4vh, 36px) 0;
 }
+
 
 label {
     display: inline-block;
     text-align: left;
+}
+
+label p {
+    margin: .4em;
 }
 
 input {
@@ -50,10 +55,11 @@ button[type=submit] {
     padding: 12px max(48px, 12vh);
 }
 
-.title {
-    /* font-size: 120%; */
+h1 {
     font-weight: bold;
+    margin: 1em auto;
 }
+
 
 .center_wrapper {
     text-align: center;
