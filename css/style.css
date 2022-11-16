@@ -57,10 +57,7 @@ button[type=submit] {
     padding: 12px max(48px, 12vh);
 }
 
-h1 {
-    font-weight: bold;
-    margin: 1em auto;
-}
+
 
 
 .center_wrapper {
