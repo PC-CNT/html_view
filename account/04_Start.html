@@ -8,47 +8,53 @@
 
     <link rel="stylesheet" href="../css/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
     <title>スタート画面</title>
 </head>
 
-<body class="center_wrapper">
-   
-    <div class="left">
-        <button type="submit">保護者ページ</button>
-    </div>
+<body>
+    <section class="section">
+        <div class="container is-family-sans-serif">
 
-    <div>
-        <h1>ふぁびっと</h1>
-    </div>
+            <div class="control">
+                <button class="button is-primary is-large" type="submit">保護者ページ</button>
+            </div>
 
-    <form action="">
+            <div>
+                <h1 class="has-text-centered title is-1">ふぁびっと</h1>
+            </div>
 
-        <div>
-            <style>
-                img {border-radius: 50%;}
-            </style>
-            <img src="../グラタンドリア.PNG" alt="card" border="1"  width="350" height="400">
-        </div>
+            <form action="">
 
-        <div> </div>
-        <div style="border: 1px solid #800000; padding: 5px 10px 3px 10px; background: #c5ff88;"><strong>こどもを選択</strong></div>
-        <div> </div>
-        <p><!-- List --></p>
-        <div class="et_pb_module"><button id="fuu" class="secList">こども１</button></div>
-        <div class="et_pb_module"><button id="euu" class="secList">こども２</button></div>
-        <p><!-- Sections --></p>
-        <div class="fuu section">
-        <div class="et_pb_text_inner1">
-        </div>
-        </div>
-        <div class="euu section">
-        <div class="et_pb_text_inner2">
-        </div>
-        <div>
-            <button type="submit">スタート</button>
-        </div>
+                <div class="has-text-centered">
+                    <style>
+                        img {
+                            border-radius: 50%;
+                        }
+                    </style>
+                    <img src="../グラタンドリア.PNG" alt="card" border="1" width="350" height="400">
+                </div>
 
-    </form>
+                <div style="border: 1px solid #800000; padding: 5px 10px 3px 10px; background: #c5ff88;"><strong>こどもを選択</strong></div>
+
+                <div class="has-text-centered et_pb_module"><button id="fuu" class="secList">こども１</button></div>
+                <div class="has-text-centered et_pb_module"><button id="euu" class="secList">こども２</button></div>
+
+                <div class="fuu section">
+                    <div class="et_pb_text_inner1">
+                    </div>
+                </div>
+                <div class="euu section">
+                    <div class="et_pb_text_inner2">
+                    </div>
+                    <div class="has-text-centered">
+                        <button class="button is-primary is-large" type="submit">スタート</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
