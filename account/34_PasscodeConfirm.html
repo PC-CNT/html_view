@@ -2,23 +2,44 @@
 <html lang="jp">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>パスコード確認</title>
+
     <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
+
 <body>
-    <div class="left"></div>
-        <button>
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5.79889 24H41.7989" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M17.7988 36L5.79883 24L17.7988 12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </button>
-        <div>
-                <button class="pass_code" type="submit"><h1>パスコードを再入力</h1></button>
-            <label>
-                <input class="wider1" type="number">
-            </label>
+    <section class="section">
+        <div class="container is-family-sans-serif">
+            <button class="button is-large">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.79889 24H41.7989" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M17.7988 36L5.79883 24L17.7988 12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="has-text-centered">
+                <button class="button is-primary is-large pass_code" type="submit">
+                    <h1>パスコードを再入力</h1>
+                </button>
+                <label class="label">
+                    <input class="input is-medium" type="number">
+                </label>
+            </div>
+            <div class="has-text-centered check1">
+                <button class="button is-large" type="submit">
+                    <h2>OK</h2>
+                </button>
+                <button class="button is-large" type="submit">
+                    <h2>いいえ</h2>
+                </button>
+            </div>
         </div>
-        <div class="check1">
-            <button type="submit"><h2>OK</h2></button>
-            <button type="submit"><h2>いいえ</h2></button>
-        </div>
+    </section>
+</body>
+
+</html>
